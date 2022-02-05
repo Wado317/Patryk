@@ -7,7 +7,7 @@ const data = [
   { number: '+2 years', text: 'Programming experiance'},
   { number: 'C1/C2', text: 'English level', },
   { number: '100%', text: 'Responsibility for the project', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 'CEO', text: 'KROPELKA App', }
 ];
 
 const Acomplishments = () => (
