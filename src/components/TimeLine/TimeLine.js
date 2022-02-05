@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, PhotoText, PhotoContainer } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -45,9 +45,9 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <PhotoContainer style={{display: 'flex', flexDirection: 'row'}}>
+      <PhotoContainer>
         <img src='images/profile-pic.png' width={300} height={300} />
-        <PhotoText style={{display: 'flex', marginLeft: 20, alignItems: 'center'}}>
+        <PhotoText>
           <SectionText>Patryk Wadowski <br/>23 yo<br/>Cracow, Poland</SectionText>
         </PhotoText>
       </PhotoContainer>
