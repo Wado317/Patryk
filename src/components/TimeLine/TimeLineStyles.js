@@ -39,6 +39,26 @@ export const CarouselMobileScrollNode = styled.div`
   }
 `
 
+export const PhotoContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  @media ${props => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+  }
+`
+
+export const PhotoText = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 20;
+  @media ${props => props.theme.breakpoints.sm} {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+`
+
 export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;

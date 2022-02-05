@@ -45,12 +45,12 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <div style={{display: 'flex', flexDirection: 'row'}}>
+      <PhotoContainer style={{display: 'flex', flexDirection: 'row'}}>
         <img src='images/profile-pic.png' width={300} height={300} />
-        <div style={{display: 'flex', marginLeft: 20, alignItems: 'center'}}>
+        <PhotoText style={{display: 'flex', marginLeft: 20, alignItems: 'center'}}>
           <SectionText>Patryk Wadowski <br/>23 yo<br/>Cracow, Poland</SectionText>
-        </div>
-      </div>
+        </PhotoText>
+      </PhotoContainer>
       <SectionText>
         I've always wanted to work for people. I've started by opening my own bar to give them happines after work. A bit later I wanted to make their lives easier daily. Then i went into hacking. KROPELKA is my first step in providing apps that makes our lives better. Maybe you have some cool idea that u want to shere with me? Go head and write me an email!
       </SectionText>
