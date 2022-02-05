@@ -45,6 +45,7 @@ export const PhotoContainer = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -55,6 +56,7 @@ export const PhotoText = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: 0;
   }
 `
