@@ -52,12 +52,13 @@ export const PhotoContainer = styled.div`
 export const PhotoText = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 20;
+  margin-left: 20px;
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 0;
+    margin-top: 20px;
   }
 `
 
